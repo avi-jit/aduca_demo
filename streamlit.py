@@ -4,7 +4,7 @@ import openai
 import json
 import os
 
-gpt = openai.OpenAI(api_key=os.get_env("openai_api_key"))
+gpt = openai.OpenAI(api_key=os.getenv("openai_api_key"))
 st.write("""
 # ADUCA Demo
 ## by Avijit Thawani
